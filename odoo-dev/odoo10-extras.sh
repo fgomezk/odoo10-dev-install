@@ -1,8 +1,8 @@
 #!/bin/bash
 
-## Repos to install in /home/odoo/extra:
-mkdir /home/odoo/extra
-cd /home/odoo/extra
+## Repos to install in /home/odoo/odoo-dev/extras:
+mkdir /home/odoo/odoo-dev/extras
+cd /home/odoo/odoo-dev/extras
 
 ## Odoo database backup:
 # git clone https://github.com/NetSur/daily-database-copy.git --depth 1 --branch 10.0 --single-branch
