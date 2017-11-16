@@ -13,3 +13,5 @@ sudo npm install -g less less-plugin-clean-css #Install less compiler
 # wkhtmltopdf: Verify if it's needed for Odoo 10.0
 
 # wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
+
+copy -R * /home/odoo/
