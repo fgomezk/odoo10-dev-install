@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Instalar PreOdoo 10
+# Pre install Odoo 10
 
 useradd -m -g sudo -s /bin/bash odoo  # Create an 'odoo' user with sudo powers
 passwd odoo  # Ask and set a password for the new user
@@ -14,4 +14,7 @@ sudo npm install -g less less-plugin-clean-css #Install less compiler
 
 # wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
 
-sudo copy -R * /home/odoo/
+sudo cp -R * /home/odoo/
+cd /home/odoo
+sudo ./odoo10-install.sh
+sudo ./odoo10-extras.sh
