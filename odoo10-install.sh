@@ -14,12 +14,5 @@ sudo npm install -g less less-plugin-clean-css #Install less compiler
 
 # wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
 
-sudo cp -Ra * /home/odoo/
-
-cd /home/odoo/odoo-dev
-sudo chmod +x ./odoo10-base-install.sh
 sudo ./odoo10-base-install.sh
-
-cd /home/odoo/odoo-dev
-sudo chmod +x ./odoo10-extras.sh
 sudo ./odoo10-extras.sh
