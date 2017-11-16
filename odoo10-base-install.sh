@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo mkdir ~/odoo-dev # Create a directory to work in
-cd ~/odoo-dev # Go into odoo-dev
+sudo mkdir /home/odoo/odoo-dev # Create a directory to work in
+cd /home/odoo/odoo-dev # Go into odoo-dev
 
 # Create Odoo 10 in ~/odoo-dev/odoo
 git clone https://github.com/odoo/odoo.git --depth 1 --branch 10.0 --single-branch
