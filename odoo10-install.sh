@@ -16,3 +16,4 @@ sudo npm install -g less less-plugin-clean-css #Install less compiler
 
 sudo ./odoo10-base-install.sh
 sudo ./odoo10-extras.sh
+sudo ./odoo10-config.sh
