@@ -1,2 +1,2 @@
 #!/bin/bash
-cp odoo.cfg /etc/
+cp odoo-server.conf /etc/
